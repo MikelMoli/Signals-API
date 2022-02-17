@@ -1,0 +1,18 @@
+insert_stock_data: |-2
+    INSERT INTO stock_data (
+      date, 
+      open, 
+      high, 
+      low, 
+      close, 
+      volume, 
+      ticker
+    ) VALUES (
+      %(date)s, 
+      %(open)s, 
+      %(high)s, 
+      %(low)s, 
+      %(close)s, 
+      %(volume)s, 
+      %(ticker)s  
+    );
